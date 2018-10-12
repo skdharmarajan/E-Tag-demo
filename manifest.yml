@@ -1,0 +1,7 @@
+---
+applications:
+- name: sherin-demo-etag
+  random-route: true
+  path: target/sherin-demo-etag-0.0.1-SNAPSHOT
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
+  host: sherin-demo-etag
